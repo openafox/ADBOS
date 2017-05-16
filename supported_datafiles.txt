@@ -1,0 +1,4 @@
+*.txt	;RAW4.00	brukertxt.py
+*.ibw	None	afm.py
+*.dat	PiezoResult	dbli.py
+*.raw	None	brukerraw.py
