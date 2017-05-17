@@ -85,7 +85,7 @@ def do_analysis(datafile, script, savefile=None):
         savefile = datafile[:-4]
     if script is not None:
         print('Running:', script)
-        mod = importFromURI(os.path.join('scripts', script))
+        mod = importFromURI(os.path.join('analysis-scripts', script))
         savefiles = mod.importfile(datafile, savefile)
         # use savefiles to add to db
 
